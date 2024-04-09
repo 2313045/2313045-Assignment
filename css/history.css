@@ -1,0 +1,8 @@
+a {
+    color: #fffb00; /*makes hyperlink yellow*/
+    text-decoration: underline; /* adds an underline to links*/
+}
+
+a:hover{
+    color:#b30000; /*makes the link red when hovering over*/
+}

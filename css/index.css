@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif; /*styles the font of webpage*/
+    margin: 0; /*default margin*/
+    padding: 0; /*defult padding*/
+}
+
+.Kingsofdivision-section {
+    display: flex; /*uses flexbox for layout*/
+    flex-wrap: wrap; /*wraps items on the next line*/
+}
+
+.Kingsofdivision-container {
+    flex: 1 1 300px; /*lets the container grown and shrink depending what the window size is*/
+    margin-right: 20px; /*adds margin to the right of container*/ 
+    margin-bottom: 20px;/*adds margin to the bottom of container*/ 
+    padding: 10px; /*adds padding inside the container*/
+    box-sizing: border-box; /*padding and border is the same width*/
+}
+
+.Description-container {
+    margin-top: 10px; /*adds margin to the top of description container*/ 
+}
+
+img {
+    max-width: 100%; /*sets the max width of the image within the container*/
+    height: auto; /*lets the images shrink depending of the size of window*/
+}

@@ -1,0 +1,31 @@
+.furyvsusyk-container {
+  text-align: left; /*allign text to left of the page*/
+  margin-top: 50px; /*Countdown to the left of the page*/
+}
+
+.furyvsusyk-wrapper {
+  margin-top: 20px; /*distance from countdown to paragraph*/
+}
+#furyvsusyk-countdown {
+  font-size: 24px; /* font size */
+  color: #ffffff; /* text color */
+  background-color: #333333; /* background color */
+  padding: 10px; /*add padding*/
+  border-radius: 5px; /*add border radius*/
+}
+.beterbievvsbivol-container {
+  text-align: left; /*allign text to left of the page*/
+  margin-top: 50px; /*countdown to the left of the page*/
+}
+
+.beterbievvsbivol-wrapper {
+  margin-top: 20px; /*distance from countdown to paragraph*/
+}
+#beterbievvsbivol-countdown{
+  font-size: 24px; /* font size */
+  color: #ffffff;  /* text color */
+  background-color: #333333; /* background color */
+  padding: 10px; /*add padding*/
+  border-radius: 5px;  /*add border radius*/
+}
+

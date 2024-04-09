@@ -1,0 +1,41 @@
+body, html {
+    margin: 0; /*default margin*/
+    padding: 0; /*default padding*/
+}
+a {
+    color: #fffb00; /*makes hyperlink yellow*/
+    text-decoration: underline; /* adds an underline to links*/
+}
+
+a:hover{
+    color:#b30000; /*makes the link red when hovering over*/
+}
+
+.container {
+    display: flex; /*uses flexbox for layout*/
+    flex-direction: column; /*place sections on top of each other*/
+}
+
+.section {
+    display: flex; /*flexbox to allign items*/
+    align-items: center; /*center alligns items*/
+    padding: 20px; /*padding in section*/
+    box-sizing:border-box; /*adds padding to sections*/
+    border: 2px solid #999; /*adds boreder round sections*/
+    border-radius: 8px;/*adds border radius*/
+    margin-bottom: 20px; /*adds margins at the bottom*/
+}
+
+.text {
+    max-width: 50%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 75%;  /*sets width of image*/
+    height: auto; /*adjusts heigh of image to the size of the window*/
+}

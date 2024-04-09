@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-color: white; 
+}
+header {
+    background-color: black; /*background colour of header*/
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; /* Set header position to fixed */
+}
+footer {
+    background-color: rgba(229, 183, 183, 0.578); /*background colour of footer*/
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.background-image { /*Adds Background image*/
+    background-image: url('img/boxingglove.jpg'); /*adds Background image*/
+    background-size: cover; /*covers containers*/
+    background-position: center; /*centre background image*/
+    height: 100vh;
+    color: white;
+}
+
+.content {
+    padding: 20px; 
+}
+
+nav { /*Adds styling to the navigation*/
+    background-color: rgba(110, 96, 96, 0.5);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+section {
+    background-repeat: no-repeat;
+        }
